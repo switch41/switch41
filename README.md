@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=switch41&label=Profile%20views&color=0e75b6&style=flat" alt="switch41" />
 </p>
@@ -14,8 +13,9 @@ I'm all about turning ideas into functional prototypes — even if they’re mes
 
 That’s where the real fun lives, right? 😄
 
-In 2024, I led Team Rookie to win our internal round of the Smart India Hackathon, securing selection to represent VBIT at the nationals.
-I was also recognized by Google Developer Groups for my contribution to the GDC on Campus Solution Challenge 2025, submitting an AI-powered solution aimed at real-world impact.
+In 2024, I was the **Team Lead** of *Team Rookie*, winning our internal round of the **Smart India Hackathon** and securing selection to represent VBIT at the nationals.  
+I was the **Team Lead** and **Backend/Blockchain Developer** in *Team Fourleaf*, recognized by **Google Developer Groups** for our submission to the **GDC on Campus Solution Challenge 2025**, where we built an **AI-powered solution** aimed at real-world impact.
+
 
 Beyond national-level challenges, I stay actively involved in college tech events, where I've participated in coding contests, logic games, and innovation rounds that fuel my curiosity and sharpen my skills.
 
@@ -42,6 +42,7 @@ Let’s build something that matters — or at least something that makes you go
 #### ⚙️ Frameworks & Libraries
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
@@ -52,11 +53,16 @@ Let’s build something that matters — or at least something that makes you go
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
 ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-FF9900?style=flat&logo=ethereum&logoColor=white)
 ![MetaMask](https://img.shields.io/badge/MetaMask-F6851B?style=flat&logo=metamask&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white)
+![Truffle](https://img.shields.io/badge/Truffle-5E473B?style=flat&logo=truffle&logoColor=white)
 
 #### 🤖 AI & Machine Learning
 ![Artificial Intelligence](https://img.shields.io/badge/AI-black?style=flat&logo=ai&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=scikit-learn&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-00b4d8?style=flat&logo=vercel&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=flat&logo=mediapipe&logoColor=white)
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=flat&logo=opencv&logoColor=white)
 
 #### 🧰 Tools & Platforms
@@ -65,6 +71,8 @@ Let’s build something that matters — or at least something that makes you go
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Tesseract OCR](https://img.shields.io/badge/Tesseract%20OCR-3F51B5?style=flat&logo=tesseract&logoColor=white)
+![Ganache](https://img.shields.io/badge/Ganache-663300?style=flat&logo=ganache&logoColor=white)
 
 ---
 
