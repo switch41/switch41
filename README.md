@@ -13,7 +13,7 @@ I'm all about turning ideas into functional prototypes — even if they’re mes
 
 That’s where the real fun lives, right? 😄
 
-In 2024, I was the **Team Lead** of *Team Rookie*, winning our internal round of the **Smart India Hackathon** and securing selection to represent VBIT at the nationals.  
+In 2024 and 2025 I was the **Team Lead** of *Team Rookie*, winning our internal round of the **Smart India Hackathon** and securing selection to represent VBIT at the nationals.  
 I was the **Team Lead** and **Backend/Blockchain Developer** in *Team Fourleaf*, recognized by **Google Developer Groups** for our submission to the **GDC on Campus Solution Challenge 2025**, where we built an **AI-powered solution** aimed at real-world impact.
 
 
