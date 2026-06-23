@@ -49,12 +49,7 @@ Let’s build something that matters — or at least something that makes you go
 ![REST APIs](https://img.shields.io/badge/REST--API-000000?style=flat&logo=fastapi&logoColor=white)
 ![web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3.js&logoColor=white)
 
-####  🧊 Blockchain Technologies
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
-![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-FF9900?style=flat&logo=ethereum&logoColor=white)
-![MetaMask](https://img.shields.io/badge/MetaMask-F6851B?style=flat&logo=metamask&logoColor=white)
-![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white)
-![Truffle](https://img.shields.io/badge/Truffle-5E473B?style=flat&logo=truffle&logoColor=white)
+
 
 #### 🤖 AI & Machine Learning
 ![Artificial Intelligence](https://img.shields.io/badge/AI-black?style=flat&logo=ai&logoColor=white)
