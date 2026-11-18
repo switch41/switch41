@@ -186,9 +186,11 @@ Previously an **AI Developer Intern at Deephash Technologies** — FastAPI servi
 
 <a id="turn-joke"></a>
 <details>
-<summary><a><img src="assets/page-turn.svg" alt="Turn the page — click to unfold" width="100%" /></a></summary>
+<summary><a href="#fool1"><img src="assets/page-turn.svg" alt="Turn the page — click to unfold" width="100%" /></a></summary>
+<a id="fool1"></a>
 <details>
-<summary><a><img src="assets/bubble-fool1.svg" alt="Fooled you once — shame on me! Sorry, click again to turn." width="520" /></a></summary>
+<summary><a href="#fool2"><img src="assets/bubble-fool1.svg" alt="Fooled you once — shame on me! Sorry, click again to turn." width="520" /></a></summary>
+<a id="fool2"></a>
 <p align="center"><img src="assets/bubble-fool2.svg" alt="Fooled you twice — can't put the blame on me." width="520" /></p>
 </details>
 </details>
