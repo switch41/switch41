@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" width="400" height="132" role="img" aria-label="Know about me — open portfolio">
+  <defs>
+    <pattern id="stDots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.2" cy="2.2" r="1.5" fill="#9A9A9A" opacity="0.5"/>
+    </pattern>
+    <style>
+      @keyframes stBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes stNudge { 0%,100% { transform: translateX(0); } 50% { transform: translateX(7px); } }
+      @keyframes stFlash { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+      .st-group { animation: stBob 2.6s ease-in-out infinite; transform-origin: 200px 66px; }
+      .st-arrow { animation: stNudge 1.1s ease-in-out infinite; }
+      .st-star { animation: stFlash 1.4s steps(2, jump-none) infinite; }
+      text { font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <g class="st-group">
+    <!-- offset ink shadow -->
+    <rect x="18" y="24" width="372" height="100" rx="7" fill="#141414"/>
+    <!-- paper sticker -->
+    <rect x="10" y="15" width="372" height="100" rx="7" fill="#F7F4EC" stroke="#141414" stroke-width="5"/>
+    <!-- screentone corners -->
+    <path d="M17 22 H120 V46 H17 Z" fill="url(#stDots)" opacity="0.8"/>
+    <path d="M290 88 H375 V108 H290 Z" fill="url(#stDots)" opacity="0.8"/>
+
+    <!-- little red burst star -->
+    <g class="st-star" transform="translate(352,36)">
+      <path d="M0,-13 L3.5,-4 L13,-4 L5.5,2 L8,11 L0,6 L-8,11 L-5.5,2 L-13,-4 L-3.5,-4 Z" fill="#D42A1E"/>
+    </g>
+
+    <!-- JP eyebrow -->
+    <text x="34" y="46" font-size="13" fill="#141414" letter-spacing="3">プロフィール</text>
+
+    <!-- red banner -->
+    <rect x="30" y="54" width="230" height="44" rx="3" fill="#D42A1E"/>
+    <text x="145" y="83" font-size="21" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">KNOW ABOUT ME</text>
+
+    <!-- arrow: outer group holds position, inner group animates -->
+    <g transform="translate(276,52)">
+      <g class="st-arrow">
+        <path d="M0,22 H52 M36,6 L56,22 L36,38" fill="none" stroke="#D42A1E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <!-- bottom micro label -->
+    <text x="34" y="112" font-size="11" fill="#9A9A9A" letter-spacing="2">FULL STORY → PORTFOLIO</text>
+  </g>
+</svg>

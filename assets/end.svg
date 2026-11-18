@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+<style>
+.owari{transform-origin:265px 180px;animation:thump2 3.4s ease-in-out infinite}
+@keyframes thump2{0%,72%,100%{transform:scale(1)}80%{transform:scale(1.07)}}
+.tsuz{transform-origin:965px 297px;animation:thump2 3.4s ease-in-out infinite;animation-delay:.35s}</style>
+<defs><pattern id="tone4" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="3" fill="#9A9A9A" opacity="0.55"/></pattern></defs>
+
+<rect width="1200" height="360" fill="#F7F4EC"/>
+<rect x="0" y="0" width="300" height="140" fill="url(#tone4)"/>
+<rect x="900" y="220" width="300" height="140" fill="url(#tone4)"/>
+<rect x="7" y="7" width="1186" height="346" fill="none" stroke="#141414" stroke-width="14"/>
+<g class="owari">
+  <circle cx="265" cy="180" r="112" fill="#D42A1E"/>
+  <circle cx="265" cy="180" r="100" fill="none" stroke="#F7F4EC" stroke-width="3"/>
+  <text x="265" y="234" font-family="'Yu Gothic UI', 'Yu Gothic', 'Microsoft YaHei', 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="138" fill="#FFFFFF" text-anchor="middle">終</text>
+</g>
+<text x="780" y="165" font-family="Impact, 'Arial Black', sans-serif" font-size="82" fill="#141414" text-anchor="middle">THE END?</text>
+<text x="780" y="220" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="27" fill="#141414" text-anchor="middle">&#8230;NOT REALLY &#8212; SCROLL BACK UP &#8593;</text>
+<g transform="rotate(-7 965 297)">
+  <g class="tsuz">
+    <rect x="875" y="265" width="180" height="64" fill="#F7F4EC" stroke="#D42A1E" stroke-width="5"/>
+    <rect x="883" y="273" width="164" height="48" fill="none" stroke="#D42A1E" stroke-width="2"/>
+    <text x="965" y="307" font-family="'Yu Gothic UI', 'Yu Gothic', 'Microsoft YaHei', 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" fill="#D42A1E" text-anchor="middle">つづく</text>
+  </g>
+</g>
+</svg>

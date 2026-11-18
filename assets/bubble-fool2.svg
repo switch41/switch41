@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" role="img" aria-label="Fooled you twice — can't put the blame on me.">
+  <defs>
+    <pattern id="f2Dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.2" cy="2.2" r="1.5" fill="#9A9A9A" opacity="0.45"/>
+    </pattern>
+    <style>
+      @keyframes f2Pop { 0% { transform: scale(0.92); } 60% { transform: scale(1.03); } 100% { transform: scale(1); } }
+      @keyframes f2Sweat { 0%,100% { transform: translateY(0); opacity: 1; } 50% { transform: translateY(4px); opacity: 0.6; } }
+      .f2-bubble { animation: f2Pop 0.5s ease-out both; transform-origin: 280px 100px; }
+      .f2-sweat { animation: f2Sweat 1.6s ease-in-out infinite; transform-origin: center; }
+      text { font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <g class="f2-bubble">
+    <!-- sweat drop: outer group holds position, inner group animates -->
+    <g transform="translate(508,40)">
+      <g class="f2-sweat">
+        <path d="M0,-14 Q10,0 0,14 Q-10,0 0,-14 Z" fill="#4FC3F7" stroke="#141414" stroke-width="3"/>
+      </g>
+    </g>
+
+    <!-- bubble body -->
+    <path d="M30,18 H530 Q548,18 548,36 V148 Q548,166 530,166 H360 L400,206 L340,166 H30 Q12,166 12,148 V36 Q12,18 30,18 Z"
+          fill="#F7F4EC" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+    <!-- screentone strip -->
+    <path d="M30 26 H530 V50 H30 Z" fill="url(#f2Dots)" opacity="0.7"/>
+
+    <!-- main lines -->
+    <text x="280" y="94" font-size="27" fill="#141414" text-anchor="middle" letter-spacing="1">FOOLED YOU TWICE —</text>
+    <text x="280" y="130" font-size="26" fill="#D42A1E" text-anchor="middle" letter-spacing="1">CAN'T PUT THE BLAME ON ME</text>
+  </g>
+</svg>

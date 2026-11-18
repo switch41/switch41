@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 210" width="560" height="210" role="img" aria-label="Fooled you once — shame on me! Press again to turn.">
+  <defs>
+    <pattern id="f1Dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.2" cy="2.2" r="1.5" fill="#9A9A9A" opacity="0.45"/>
+    </pattern>
+    <style>
+      @keyframes f1Pop { 0% { transform: scale(0.92); } 60% { transform: scale(1.03); } 100% { transform: scale(1); } }
+      @keyframes f1Nudge { 0%,100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
+      .f1-bubble { animation: f1Pop 0.5s ease-out both; transform-origin: 280px 95px; }
+      .f1-arrow { animation: f1Nudge 1s ease-in-out infinite; }
+      text { font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <g class="f1-bubble">
+    <!-- bubble body -->
+    <path d="M30,18 H530 Q548,18 548,36 V140 Q548,158 530,158 H200 L150,198 L158,158 H30 Q12,158 12,140 V36 Q12,18 30,18 Z"
+          fill="#F7F4EC" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+    <!-- screentone strip -->
+    <path d="M30 26 H530 V50 H30 Z" fill="url(#f1Dots)" opacity="0.7"/>
+
+    <!-- main lines -->
+    <text x="280" y="82" font-size="27" fill="#141414" text-anchor="middle" letter-spacing="1">FOOLED YOU ONCE —</text>
+    <text x="280" y="118" font-size="30" fill="#D42A1E" text-anchor="middle" letter-spacing="1">SHAME ON ME!</text>
+
+    <!-- press again pill -->
+    <g class="f1-arrow">
+      <rect x="92" y="132" width="376" height="30" rx="15" fill="#141414"/>
+      <text x="280" y="153" font-size="14" fill="#F7F4EC" text-anchor="middle" letter-spacing="1.2">SORRY — CLICK AGAIN TO TURN →</text>
+    </g>
+  </g>
+</svg>

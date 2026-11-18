@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="LinkedIn">
+  <defs>
+    <pattern id="tone" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#9A9A9A" opacity="0.5"/>
+    </pattern>
+    <style>text{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif}</style>
+  </defs>
+  <rect x="3" y="3" width="194" height="50" rx="6" fill="#F7F4EC" stroke="#141414" stroke-width="3"/>
+  <rect x="9" y="8" width="182" height="8" fill="url(#tone)"/>
+  <g transform="rotate(45 23.5 35)">
+    <rect x="17" y="28.5" width="13" height="13" fill="#D42A1E"/>
+    <rect x="20.6" y="32.1" width="5.8" height="5.8" fill="#F7F4EC"/>
+  </g>
+  <text x="44" y="41" font-size="17" fill="#141414" letter-spacing="1">LINKEDIN</text>
+  <path d="M173 35 H184 M179 30.5 L183.5 35 L179 39.5" stroke="#D42A1E" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

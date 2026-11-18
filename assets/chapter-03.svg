@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110">
+<style>
+.swipe{animation:swipe 4.5s ease-in-out infinite}
+@keyframes swipe{0%{stroke-dasharray:640 640;stroke-dashoffset:640;opacity:0}8%{opacity:1}45%{stroke-dasharray:640 640;stroke-dashoffset:0;opacity:1}70%{stroke-dasharray:640 640;stroke-dashoffset:-640;opacity:0}100%{stroke-dasharray:640 640;stroke-dashoffset:-640;opacity:0}}
+.dash{animation:dashslide 1.6s ease-in-out infinite}
+.d2{animation-delay:.2s}
+.d3{animation-delay:.4s}
+@keyframes dashslide{0%,100%{opacity:.3;transform:translateX(-12px)}50%{opacity:1;transform:translateX(10px)}}</style>
+<defs></defs>
+
+<rect width="1200" height="110" fill="#F7F4EC"/>
+<rect x="0" y="0" width="1200" height="9" fill="#141414"/>
+<rect x="0" y="101" width="1200" height="9" fill="#141414"/>
+<g transform="rotate(-4 118 57)">
+  <rect x="36" y="22" width="164" height="70" fill="#F7F4EC" stroke="#D42A1E" stroke-width="5"/>
+  <rect x="44" y="30" width="148" height="54" fill="none" stroke="#D42A1E" stroke-width="2"/>
+  <text x="118" y="74" font-family="'Yu Gothic UI', 'Yu Gothic', 'Microsoft YaHei', 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" fill="#D42A1E" text-anchor="middle">第3話</text>
+</g>
+<text x="280" y="76" font-family="'Yu Gothic UI', 'Yu Gothic', 'Microsoft YaHei', 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="46" fill="#141414" text-anchor="start">作品</text>
+<line class="swipe" x1="430" y1="84" x2="800" y2="30" stroke="#D42A1E" stroke-width="16" stroke-linecap="round"/>
+<line class="swipe" x1="440" y1="96" x2="810" y2="42" stroke="#D42A1E" stroke-width="5" stroke-linecap="round"/>
+<rect x="830" y="52" width="56" height="10" rx="5" fill="#141414" class="dash d1"/><rect x="920" y="54" width="56" height="10" rx="5" fill="#141414" class="dash d2"/><rect x="1010" y="56" width="56" height="10" rx="5" fill="#141414" class="dash d3"/>
+<text x="1178" y="74" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="26" fill="#141414" text-anchor="end">EP.03</text>
+</svg>
